@@ -132,12 +132,12 @@ b, strong {
 }
 
 .avatar-img {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 100px;
   object-fit: cover;
   margin-right: 18px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
 } 
 
 .name-avatar {
@@ -680,8 +680,8 @@ b, strong {
   }
 
   .avatar-img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
     object-fit: cover;
     margin-right: 4px;
