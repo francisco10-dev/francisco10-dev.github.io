@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Francisco Ortiz | Portafolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script>
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+      <!-- ScrollReveal CDN -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+    
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light revel-left">
+        <div class="container">
+          <div style="display: flex; cursor: pointer;">
+            <a class="navbar-brand" id="lang-es">ES</a> <!--cambia todo el texto a español-->
+            <div></div>
+            <a class="navbar-brand" id="lang-en">EN</a> <!--cambia todo el texto a inglés-->
+          </div>
+            <div>
+                <i class="color-mode-icon color-mode mr-3" id="mobile-color-mode"></i>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+              </button>              
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About" data-i18n="nav.about">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects" data-i18n="nav.projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume" data-i18n="nav.resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-form" class="nav-link"><span data-hover="Contact" data-i18n="nav.contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto" id="ul-color">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text revel-left" data-i18n="about.welcome">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <div class="name-avatar">
+                          <div class="avatar-box revel-left" >
+                            <img class="avatar-img" src="images/undraw/Francisco2.jpg"></img>
+                          </div>
+                          <h1 class="animated animated-text revel-left" >
+                              <span class="mr-2" data-i18n="about.hey">Hey folks, I'm</span>
+                                  <div class="animated-info">
+                                      <span class="animated-item">Francisco</span>
+                                      <span class="animated-item">Software Dev</span>
+                                  </div>
+                          </h1>                          
+                        </div>
+                        <p class="presentation-text revel-left" data-i18n="about.presentation">I am committed to continuous learning and improvement, focusing on building efficient and 
+                          scalable web solutions.</p>
+                           <p data-i18n="about.presentation-2" class="presentation-text revel-left">
+                            Proficient in both front-end and back-end development, my goal is to
+                            create impactful digital experiences.
+                           </p>
+                        <div class="stack-box mt-4 reveal-buttoms">
+                          <img class="icon-svg"  src="img/javascript.svg" alt="JavaScript">
+                          <img class="icon-svg"  src="img/typescript.svg" alt="TypeScript">
+                          <img class="icon-svg"  src="img/react.svg" alt="React">
+                          <img class="icon-svg"  src="img/docker.svg" alt="Docker">
+                          <img class="icon-svg"  src="img/git.svg" alt="Git">
+                          <img class="icon-svg"  src="img/nodedotjs.svg" alt="NodeJS">
+                          <img class="icon-svg"  src="img/java.svg" alt="Java">
+                        </div>
+                        <div class="custom-btn-group mt-4 reveal-buttoms">
+                          <a class="btn mr-lg-2 custom-btn" id="cv" data-toggle="modal" data-target="#downloadModal" data-i18n="about.downloadCV">Download Resume</a>
+                          <a href="#contact-form" class="btn custom-btn custom-btn-bg custom-btn-link" data-i18n="about.getQuote">Get a free quote</a>
+                        </div>
+                         <!-- Modal -->
+                        <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="downloadModalLabel" data-i18n="modal.title">Download Resume Options</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <p class="modal-subtitle" data-i18n="modal.subtitle">Choose the language:</p>
+                                <a class="btn btn custom-btn btn-block mb-2" data-i18n="modal.spanish" href="documents/Francisco Ortiz - CV es.pdf" download="Francisco_Ortiz.pdf">CV en Español</a>
+                                <a class="btn custom-btn btn-block " data-i18n="modal.english"  href="documents/FRANCISCO  CV en.pdf" download="Francisco_Ortiz.pdf">CV en Inglés</a>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg revel-left">
+                        <img src="images/undraw/2.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+      <div class="col-lg-8 mx-auto">
+        <h2 data-i18n="projects.title">Things I've created</h2>
+        <h6 data-i18n="projects.subtitle">Sección en desarrollo..</h6>
+      </div>
+      <div class="projects-container">
+        <div class="swiper saag">
+            <div class="project-stack revel-b">
+                <h5>SAAG | ACIB - FUNIN</h5>
+                <div>
+                    <img class="icon-svg s" src="img/nodedotjs.svg" alt="NodeJS">
+                    <img class="icon-svg s" src="img/typescript.svg" alt="TypeScript">
+                    <img class="icon-svg s" src="img/react.svg" alt="React">
+                    <img class="icon-svg s" src="img/mysql.svg" alt="MySql">
+                    <img class="icon-svg s" src="img/express.svg" alt="MySql">
+                </div>
+            </div>
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide">
+                    <img src="img/saag-login.png" alt="SAAG Login" class="slide-image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/dasboard.jpg" alt="SAAG Dasboard" class="slide-image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/saag-colaboradores.png" alt="SAAG Colaboradores" class="slide-image">
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4" data-i18n="resume.experience">Experience</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper reveal" >
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span data-i18n="resume.position">Software Developer (Internship)</span><small>ACIB FUNIN</small></h3>
+                                  <span> <small data-i18n="resume.duration">feb. 2023 - jun. 2024 (1 year, 4 months)</small></span>
+                                  <p data-i18n="resume.description">Developed an administrative system for the human resources department using ReactJS, NodeJS with express, and MySQL.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2" data-i18n="resume.education">Education</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper reveal">
+                             <div class="timeline-yr">
+                                  <span>2024</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span data-i18n="resume.degree1">Bachelor's degree in information systems engineering (Ongoing). </span></h3>
+                                  <small data-i18n="resume.institution1">National University of Costa Rica (UNA).</small>
+                             </div>
+                        </div>
+                        <div class="timeline-wrapper reveal">
+                          <div class="timeline-yr">
+                              <span>2024</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span data-i18n="resume.degree4">Scrum Fundamentals Certified.</span></h3>
+                              <small data-i18n="resume.institution4">Scrum Study.</small>
+                          </div>
+                        </div>
+                        <div class="timeline-wrapper reveal">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                              <h3><span data-i18n="resume.degree2">Diploma in computer applications programming.</span></h3>
+                              <small data-i18n="resume.institution2">National University of Costa Rica (UNA).</small>
+                            </div>
+                        </div>
+                        <div class="timeline-wrapper reveal">
+                            <div class="timeline-yr">
+                                <span>2017</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span data-i18n="resume.degree3">High School Diploma.</span></h3>
+                                <small data-i18n="resume.institution3">Experimental Bilingual High School of Santa Cruz, Guanacaste.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-2 reveal" id="contact" >
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31407.930763581935!2d-85.60280837764918!3d10.262280330375072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9fcac13f8def83%3A0xeb780121697eae90!2sProvincia%20de%20Guanacaste%2C%20Santa%20Cruz!5e0!3m2!1ses-419!2scr!4v1719892329280!5m2!1ses-419!2scr" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white" data-i18n="contact.title">Say hello</h3>
+                  <p class="footer-text mb-0">+506 6469 4072 (CR)</p>
+                  <p><a href="mailto:hello@company.co">ortizjose451@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li>
+                       <a href="https://github.com/francisco10-dev" data-toggle="tooltip" data-placement="left" title="GitHub">
+                         <i class="fab fa-github"></i>
+                       </a>
+                     </li>
+                     <li>
+                        <a href="https://www.linkedin.com/in/francisco-ortiz-ortiz-8387aa225" data-toggle="tooltip" data-placement="left" title="LinkedIn">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                     </li>
+                     <li><a href="https://wa.me/50664694072" data-toggle="tooltip" data-placement="left" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12 reveal" id="contact-form">
+            <div class="contact-form">
+              <h2 class="mb-4" data-i18n="contact.formTitle">Interested to work together? Let's talk</h2>
+
+              <form id="contact-form" action="https://formspree.io/f/mleyywoa" method="POST">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" data-i18n-placeholder="contact.formName" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" data-i18n-placeholder="contact.formEmail" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" data-i18n-placeholder="contact.formMessage" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <button data-i18n="contact.formSubmit" type="submit" class="form-control submit-btn" value="Send">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+     <footer class="footer">
+          <div class="container">
+            <hr>
+               <div class="row">
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">&copy; 2024 Francisco Ortiz.</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/language.js"></script>
+  </body>
+</html>

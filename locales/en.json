@@ -1,0 +1,52 @@
+{
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "resume": "Resume",
+      "contact": "Contact"
+    },
+    "about": {
+      "welcome": "Welcome to my portfolio website!",
+      "hey": "Hey folks, I'm",
+      "presentation": "I am committed to continuous learning and improvement, focusing on building efficient and scalable web solutions.",
+      "presentation-2": "Proficient in both front-end and back-end development, my goal is to create pleasant digital experiences.",
+      "downloadCV": "Download CV",
+      "getQuote": "Get in touch"
+    },
+    "modal": {
+        "title" : "Download Resume Options",
+        "subtitle": "Choose a language",
+        "spanish" : "Spanish",
+        "english": "English"
+    },
+    "projects": {
+        "title": "Things I've created",
+        "subtitle" : "Section under development."
+    },
+    "resume": {
+        "experience": "Experience",
+        "education": "Education",
+        "position": "Software Developer (Internship)",
+        "company": "ACIB FUNIN",
+        "duration": "feb. 2023 - jun. 2024 (1 year, 4 months)",
+        "description": "Full-stack software development utilizing modern web technologies such as React with TypeScript to build intuitive and user-friendly interfaces, as well as NodeJS and Express.js for API development and to ensure a scalable and maintainable server-side architecture.",
+        "degree1": "Bachelor's degree in information systems engineering (Ongoing)",
+        "institution1": "National University of Costa Rica (UNA)",
+        "degree2": "Diploma in computer applications programming",
+        "institution2": "National University of Costa Rica (UNA)",
+        "degree3": "High School Diploma",
+        "institution3": "Experimental Bilingual High School of Santa Cruz, Guanacaste",
+        "degree4": "Scrum Fundamentals Certified",
+        "institution4": "ScrumStudy"
+    },
+    "contact": {
+        "title": "Say hello",
+        "phone": "+506 6469 4072 (CR)",
+        "email": "ortizjose451@gmail.com",
+        "formTitle": "Interested to work together? Let's talk",
+        "formName": "Your Name",
+        "formEmail": "Email",
+        "formMessage": "Leave a message...",
+        "formSubmit": "Send"
+    }
+}
