@@ -80,22 +80,17 @@
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                     <div class="about-text">
-                        <small class="small-text revel-left" data-i18n="about.welcome">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <small class="small-text revel-b" data-i18n="about.welcome">Welcome to <span class="mobile-block">my portfolio website!</span></small>
                         <div class="name-avatar">
-                          <div class="avatar-box revel-left" >
-                            <img class="avatar-img" src="images/undraw/avatar.png"></img>
+                          <div class="avatar-box revel-b" >
+                            <img class="avatar-img" src="images/undraw/foto.png"></img>
                           </div>
-                          <h1 class="animated animated-text revel-left" >
-                              <span class="mr-2" data-i18n="about.hey">Hey folks, I'm</span>
-                                  <div class="animated-info">
-                                      <span class="animated-item">Francisco</span>
-                                      <span class="animated-item">Software Dev</span>
-                                  </div>
-                          </h1>                          
+                          <div>
+                            <h1 class="name revel-b">Francisco Ortiz</h1>    
+                            <p class="name revel-b" data-i18n="about.presentation-2">Information Systems Engineer.</p>                               
+                          </div>     
                         </div>
-                        <p class="presentation-text revel-left" data-i18n="about.presentation">I am committed to continuous learning and improvement, focusing on building efficient and 
-                          scalable web solutions.</p>
-                           <p data-i18n="about.presentation-2" class="presentation-text revel-left">
+                           <p data-i18n="about.presentation" class="presentation-text revel-b">
                             Proficient in both front-end and back-end development, my goal is to
                             create impactful digital experiences.
                            </p>
@@ -103,13 +98,12 @@
                           <img class="icon-svg"  src="img/javascript.svg" alt="JavaScript">
                           <img class="icon-svg"  src="img/typescript.svg" alt="TypeScript">
                           <img class="icon-svg"  src="img/react.svg" alt="React">
-                          <img class="icon-svg"  src="img/docker.svg" alt="Docker">
                           <img class="icon-svg"  src="img/git.svg" alt="Git">
                           <img class="icon-svg"  src="img/nodedotjs.svg" alt="NodeJS">
                           <img class="icon-svg"  src="img/java.svg" alt="Java">
                         </div>
                         <div class="custom-btn-group mt-4 reveal-buttoms">
-                          <a class="btn mr-lg-2 custom-btn" id="cv" data-toggle="modal" data-target="#downloadModal" data-i18n="about.downloadCV">Download Resume</a>
+                        <!---  <a class="btn mr-lg-2 custom-btn" id="cv" data-toggle="modal" data-target="#downloadModal" data-i18n="about.downloadCV">Download Resume</a> -->
                           <a href="#contact-form" class="btn custom-btn custom-btn-bg custom-btn-link" data-i18n="about.getQuote">Get a free quote</a>
                         </div>
                          <!-- Modal -->
@@ -134,7 +128,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg revel-left">
+                    <div class="about-image svg revel-b">
                         <img src="images/undraw/2.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
@@ -164,9 +158,6 @@
                     <img src="img/saag-login.png" alt="SAAG Login" class="slide-image">
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/dasboard.jpg" alt="SAAG Dasboard" class="slide-image">
-                </div>
-                <div class="swiper-slide">
                     <img src="img/saag-colaboradores.png" alt="SAAG Colaboradores" class="slide-image">
                 </div>
             </div>
@@ -174,6 +165,35 @@
             <div class="swiper-button-next"></div>
               <div class="swiper-pagination"></div>
         </div>
+        <!--PORTAL WEB DONA-->
+        <div class="swiper saag">
+          <div class="project-stack revel-b">
+              <h5>PORTAL WEB - DONACIONES</h5>
+              <div>
+                  <img class="icon-svg s" src="img/nodedotjs.svg" alt="NodeJS">
+                  <img class="icon-svg s" src="img/typescript.svg" alt="TypeScript">
+                  <img class="icon-svg s" src="img/react.svg" alt="React">
+              </div>
+          </div>
+          <div class="swiper-wrapper ">
+              <div class="swiper-slide">
+                  <img src="img/dona/dona1.png" alt="Landing Page" class="slide-image">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img/dona/dona2.png" alt="PORTAL WEB - DONACIONES" class="slide-image">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img/dona/dona3.png" alt="PORTAL WEB - DONACIONES" class="slide-image">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/dona/dona4.png" alt="PORTAL WEB - DONACIONES" class="slide-image">
+              </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+          <!--DOGSHUB-->
         <div class="swiper saag">
           <div class="project-stack revel-b">
               <h5>DOGSHUB</h5>
@@ -199,7 +219,7 @@
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-            <div class="swiper-pagination"></div>
+          <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -210,17 +230,38 @@
 
                 <div class="col-lg-6 col-12">
                   <h2 class="mb-4" data-i18n="resume.experience">Experience</h2>
-
-                    <div class="timeline">
+                      <div class="timeline">
+                         <!-- <div class="timeline-wrapper reveal" >
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span data-i18n="resume.position2">Software Developer (Internship)</span></h3><small>Yaipan (DECSA Costa Rica)</small><br>
+                                <span><small data-i18n="resume.duration3">dec. 2024 - currently working here</small></span>
+                               <!-- <p data-i18n="resume.description2">Software Development with .NET, Angular.</p>--
+                            </div>
+                          </div>
+                        -->
                         <div class="timeline-wrapper reveal" >
                              <div class="timeline-yr">
-                                  <span>2023</span>
+                                  <span>2024</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span data-i18n="resume.position">Software Developer (Internship)</span><small>ACIB FUNIN</small></h3>
-                                  <span> <small data-i18n="resume.duration">feb. 2023 - jun. 2024 (1 year, 4 months)</small></span>
-                                  <p data-i18n="resume.description">Developed an administrative system for the human resources department using ReactJS, NodeJS with express, and MySQL.</p>
+                                  <h3><span data-i18n="resume.position">Software Developer (Internship)</span></h3><small>PEOPLE APPS INC</small><br>
+                                  <span> <small data-i18n="resume.duration2">jul. 2024 - nov. 2024</small></span>
+                                  <p data-i18n="resume.description2">Software Development with .NET, Angular.</p>
                              </div>
+                        </div>
+
+                        <div class="timeline-wrapper reveal" >
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span data-i18n="resume.position">Software Developer (Internship)</span></h3><small>ACIB FUNIN</small><br>
+                                <span> <small data-i18n="resume.duration">feb. 2023 - jun. 2024 (1 year, 4 months)</small></span>
+                                <p data-i18n="resume.description">Developed an administrative system for the human resources department using ReactJS, NodeJS with express, and MySQL.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,7 +275,7 @@
                                   <span>2024</span>
                              </div>
                              <div class="timeline-info">
-                                  <h3><span data-i18n="resume.degree1">Bachelor's degree in information systems engineering (Ongoing). </span></h3>
+                                  <h3><span data-i18n="resume.degree1">Bachelor's degree in information systems engineering. </span></h3>
                                   <small data-i18n="resume.institution1">National University of Costa Rica (UNA).</small>
                              </div>
                         </div>
@@ -267,7 +308,6 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -289,11 +329,6 @@
                 </div>
 
                 <ul class="social-links">
-                     <li>
-                       <a href="https://github.com/francisco10-dev" data-toggle="tooltip" data-placement="left" title="GitHub">
-                         <i class="fab fa-github"></i>
-                       </a>
-                     </li>
                      <li>
                         <a href="https://www.linkedin.com/in/francisco-ortiz-ortiz-8387aa225" data-toggle="tooltip" data-placement="left" title="LinkedIn">
                           <i class="fab fa-linkedin"></i>

@@ -6,10 +6,10 @@
       "contact": "Contacto"
     },
     "about": {
-      "welcome": "¡Bienvenido a mi portafolio web!",
+      "welcome": "¡Bienvenido a mi sitio web!",
       "hey": "Hola a todos, soy",
-      "presentation": "Estoy comprometido con el aprendizaje y la mejora continua, centrándome en la creación de soluciones web eficientes y escalables.",
-      "presentation-2": "Competente tanto en desarrollo front-end como back-end, mi objetivo es crear experiencias digitales agradables.",
+      "presentation": "Comprometido con el aprendizaje y la mejora continua, enfocándome en construir soluciones eficientes y escalables.",
+      "presentation-2": "Ingeniero en Sistemas de Información.",
       "downloadCV": "Descargar CV",
       "getQuote": "Contactar"
     },
@@ -26,18 +26,22 @@
     "resume": {
         "experience": "Experiencia",
         "education": "Educación",
-        "position": "Desarrollador de Software (Prácticas) ",
+        "position": "Desarrollador de Software (Pasantía)",
+        "position2": "Ingeniero en Sistemas de Información",
         "company": "ACIB FUNIN",
-        "duration": "feb. 2023 - jun. 2024 (1 año, 4 meses)",
-        "description": "Desarrollo de software full-stack, empleando tecnologías web modernas como React con TypeScript para construir interfaces de usuario intuitivas y agradables, así como NodeJS y Express.js para el desarrollo de APIs y garantizar una arquitectura del lado del servidor escalable y mantenible.",
-        "degree1": "Bachillerato en Ingeniería en Sistemas de Información (En curso) ",
-        "institution1": "Universidad Nacional de Costa Rica (UNA) ",
-        "degree2": "Diplomado en Programación de Aplicaciones Informáticas ",
-        "institution2": "Universidad Nacional de Costa Rica (UNA) ",
-        "degree3": "Bachillerato en Educación Secundaria",
-        "institution3": "Liceo Experimental Bilingüe de Santa Cruz, Guanacaste",
-        "degree4": "Scrum Foundation Professional Certification. ",
-        "institution4": "CERTIPROF"
+        "duration": "Feb 2023 - Jun 2024 (1 año, 4 meses)",
+        "description": "Desarrollo de software full-stack utilizando React, TypeScript, NodeJS y Express.js para el desarrollo de APIs.",
+        "degree1": "Bachillerato en Ingeniería en Sistemas de Información.",
+        "institution1": "Universidad Nacional de Costa Rica (UNA)",
+        "degree2": "Diplomado en Programación de Aplicaciones Informáticas",
+        "institution2": "Universidad Nacional de Costa Rica (UNA)",
+        "degree3": "Diploma de Educación Secundaria",
+        "institution3": "Colegio Experimental Bilingüe de Santa Cruz, Guanacaste",
+        "degree4": "Certificación Profesional de Fundamentos de Scrum",
+        "institution4": "CERTIPROF",
+        "duration2": "Jul 2024 - Nov 2024",
+        "description2": "Desarrollo de software full-stack utilizando .NET y el framework Angular.",
+        "duration3": "Dic 2024 - Actualidad"
     },
     "contact": {
         "title": "¡Di Hola!",
