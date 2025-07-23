@@ -25,7 +25,7 @@
 
       // Ejecutar al cargar la página
       $(document).ready(function() {
-          applyDefaultTheme(); // Aplicar tema por defecto
+          //applyDefaultTheme(); // Aplicar tema por defecto
       });
 
     // COLOR MODE
