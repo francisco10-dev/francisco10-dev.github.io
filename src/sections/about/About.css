@@ -1,0 +1,120 @@
+/* src/sections/about/About.css */
+.section {
+  padding: 7rem 0;
+}
+
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 5rem;
+  align-items: start;
+}
+
+.about-heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.outline {
+  -webkit-text-stroke: 1px var(--outline-color);
+  color: transparent;
+}
+
+.about-body {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.about-body strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.about-links {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about-link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color var(--transition);
+}
+
+.about-link:hover { color: var(--accent); }
+
+.about-link-icon {
+  color: var(--accent);
+  transition: transform 0.2s ease;
+}
+
+.about-link:hover .about-link-icon {
+  transform: translateX(4px);
+}
+
+/* Cards grid */
+.about-visual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.about-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: border-color var(--transition);
+}
+
+.about-card:hover {
+  border-color: var(--text-muted);
+}
+
+.about-card.accent-card {
+  background: var(--accent-dim);
+  border-color: var(--accent-border);
+}
+
+.about-card-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.about-card-value {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.accent-card .about-card-value {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-visual {
+    grid-template-columns: 1fr 1fr;
+  }
+}
