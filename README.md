@@ -1,4 +1,4 @@
-# Francisco Ortiz — Portfolio
+# Web personal
 
 A modern, minimalist portfolio built with **React + TypeScript + Vite**.
 
@@ -41,7 +41,7 @@ npm run preview
 
 ## Customization
 
-All portfolio content lives in `src/data/portfolio.ts` — edit that file to update your personal info, experience, projects, skills, and education.
+All portfolio content lives in `src/data/portfolio.ts`
 
 ## Tech Stack
 
